@@ -21,6 +21,7 @@ insert_detected_image: no
 #title: //meta[@property='og:title']/@content
 #author: //meta[@name='author']/@content
 #date: //time/@datetime
+#date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","dateModified"')
 
 
 #strip_attr: //h2[contains(@class,'wp-block-heading')]/@class
