@@ -27,6 +27,7 @@ insert_detected_image: no
 #strip_attr: //h2[contains(@class,'wp-block-heading')]/@class
 #strip_attr: //h3[contains(@class,'wp-block-heading')]/@class
 
+#skip_json_ld: yes
 #prune: no
 #tidy: no
 
